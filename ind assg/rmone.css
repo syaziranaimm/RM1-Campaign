@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(bodymount.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(bluemount.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+}
+
+.logo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+h1 {
+    color: #000000;
+    font-family:'Kaushan Script', sans-serif; 
+    font-size: 65px;
+}
+
+h2 {
+    color: #000000;
+    font-family:'Lobster', sans-serif; 
+    font-size: 35px;
+    text-shadow: px 1px 2px rgb(12, 0, 78)
+}
+
+#quranic-verse {
+    color: rgb(12, 0, 78);
+    font-family:'Lobster', sans-serif; 
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(244, 241, 255)
+}
+
+
+#monthly-deduction-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto; 
+    max-width: 400px; 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#contact-information {
+    margin: 20px auto; 
+    max-width: 400px; 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
